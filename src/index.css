@@ -164,3 +164,54 @@ background-color: rgba(112, 121, 130, 0.5);
 .diver{
     cursor: pointer;
 }
+.mas1sl{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 500px;
+    justify-content: center;
+}
+.but{
+    width: 300px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    color: red;
+    border: 0;
+    font-size: 15px;
+}
+.contanier3{
+    display: flex;
+    max-width: 1260px;
+    margin: auto;
+    padding: 10px;
+    justify-content: space-between;
+}
+.ft{
+    font-size: 50px;
+    font-family: sans-serif;
+    width: 550px;
+}
+.mecf{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #2c3843;
+}
+.poqrf{
+    font-size: 40px;
+    color: gray;
+}
+.butkarm{
+    width: 300px;
+    background-color: #f04d4d;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    border: 0;
+    font-size: 25px;
+}
+.poqrf2{
+    font-size: 20px;
+    color: #666e75;
+}
