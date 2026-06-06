@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.headeriGlux{
+    background-color: #01415f;
+    display: flex;
+    max-width: 1260px;
+    margin: auto;
+    justify-content: space-between;
+}
+.contanier{
+    background-color: #01415f;
+}
+.mas1{
+    display: flex;
+    
+}
+.align{
+    display: flex;
+    align-items: center;
+    font-family: monospace;
+    color: white;
+    padding: 11px 20px;
+}
+.gap{
+    gap: 10px;
+}
+.back{
+    background-color: rgb(255, 255, 255,0.2);
+    padding: 11px 20px;
+    font-size: 14px;
+}
+.font{
+    font-size: 14px;
+}
+.align:hover{
+    background-color: rgb(255, 255, 255,0.2);
+    transition: 0.3s;
+}
+.mas2{
+    display: flex;
+    align-items: center;
+}
+.xumb1{
+    cursor: pointer;
+    
+    padding: 12px 0;
+    padding-right: 20px;
+}
+.xumb2{
+    padding: 12px 0;
+}
+.xumb3{
+    padding: 12px 0;
+    cursor: pointer;
+}
+.fc{
+    color: white;
+    font-size: 15px;
+    font-family: monospace;
+    padding: 0px 15px;
+    position: relative;
+}
+.fc::before{
+    background-color: rgba(112, 121, 130, 0.5);
+    bottom: 0;
+    content: "";
+    left: 0;
+    height: 16px;
+    margin: auto 0;
+    position: absolute;
+    top: 0;
+    width: 0.5px;
+}
+.fc::after{
+background-color: rgba(112, 121, 130, 0.5);
+    bottom: 0;
+    content: "";
+    right: 0;
+    height: 16px;
+    margin: auto 0;
+    position: absolute;
+    top: 0;
+    width: 0.5px;
+}
+.fc:hover{
+    color: #f04d4d;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.nav{
+    display: flex;
+}
+.ops{
+    padding: 0px 15px;
+}
+
+.xumb3:hover{
+    background-color: rgb(255, 255, 255,0.2);
+    transition: 0.3s;
+}
