@@ -309,4 +309,9 @@ header {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    padding-bottom: 80px;
+    padding-top: 50px;
+}
+.arajark{
+    
 }
