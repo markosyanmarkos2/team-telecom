@@ -11,7 +11,7 @@ function App() {
         slidesPerView={1}
         navigation={true}
         pagination={{ clickable: true }}
-        // autoplay={{ delay: 3000 }}
+        autoplay={{ delay: 3000 }}
         loop={true}
       >
         <SwiperSlide>
