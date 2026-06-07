@@ -313,5 +313,11 @@ header {
     padding-top: 50px;
 }
 .arajark{
-    
+    width: 100%;
+    background-color: #022739;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
