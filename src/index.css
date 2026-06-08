@@ -369,3 +369,10 @@ header {
     flex-direction: column;
     gap: 10px;
 }
+.appsblockright{
+    width: 50%;
+    background: url(https://www.telecomarmenia.am/img/redesign/app-img.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: contain;
+}

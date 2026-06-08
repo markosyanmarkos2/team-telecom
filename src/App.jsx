@@ -165,9 +165,7 @@ function LrahosSlider() {
         </SwiperSlide>
         <div style={{width:"50%",marginLeft:"50px",marginTop:"50px"}}></div>
         <div style={{display:"flex", alignItems:"end", }}>
-            <hr style={{width:"63%", height:"0px", marginLeft:"250px"}} />
-            <a style={{paddingLeft:"50px", color:"#666e75", cursor:"pointer"}} href="">Տեսնել Ավելին</a>
-        </div>
+            </div>
       </Swiper>
     </div>
 
