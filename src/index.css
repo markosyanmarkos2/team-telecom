@@ -335,3 +335,37 @@ header {
     position: relative;
     bottom: -30px;
 }
+.appsblock{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.min{
+    min-height: 492px;
+}
+.appsblock:after {
+    content: "";
+    position: absolute;
+    background-color: #86d2da;
+    padding-bottom: 84.42136%;
+    width: 74%;
+    bottom: 0;
+    right: 0;
+    transform: rotate(71deg);
+    transform-origin: left bottom;
+    z-index: -1;
+}
+.appsblockleft{
+    width: 50%;
+    min-height: 492px;
+}
+.appsblocklink{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.gogapp{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
