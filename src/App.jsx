@@ -9,7 +9,7 @@ function LrahosSlider() {
         slidesPerView={1}
         navigation={true}
         pagination={{ clickable: true}}
-        autoplay={{ delay: 15000000 }}
+        autoplay={{ delay: 3000 }}
         loop={true}
       >
         <SwiperSlide style={{display:"flex",gap:"30px",justifyContent:"center"}}>
@@ -19,8 +19,8 @@ function LrahosSlider() {
                          flexDirection:"column",
                          overflow:"hidden",
                          borderRadius:"15px",
-                         border:"0.5px solid rgb(177, 177, 177)",
-                         backgroundColor:"#e3e3e3"}}>
+                         border:"0.5px solid rgb(227, 227, 227)",
+                         backgroundColor:"#f2f2f2"}}>
                             <img src="https://www.telecomarmenia.am/images/news/1/17787646383268/450x250c-center.png" alt="" />
                             <div className="paddi">
                             <span style={{color:"#666e75", paddingBottom:"10px"}}>14 may</span>
@@ -35,8 +35,8 @@ function LrahosSlider() {
                          flexDirection:"column",
                          overflow:"hidden",
                          borderRadius:"15px",
-                         border:"0.5px solid rgb(177, 177, 177)",
-                         backgroundColor:"#e3e3e3"}}>
+                         border:"0.5px solid rgb(227, 227, 227)",
+                         backgroundColor:"#f2f2f2"}}>
                             <img src="https://www.telecomarmenia.am/images/news/1/17786537465042/450x250c-center.png" alt="" />
                             <div className="paddi">
                             <span style={{color:"#666e75", paddingBottom:"10px"}}>13 may</span>
@@ -51,8 +51,8 @@ function LrahosSlider() {
                          flexDirection:"column",
                          overflow:"hidden",
                          borderRadius:"15px",
-                         border:"0.5px solid rgb(177, 177, 177)",
-                         backgroundColor:"#e3e3e3"}}>
+                         border:"0.5px solid rgb(227, 227, 227)",
+                         backgroundColor:"#f2f2f2"}}>
                             <img src="https://www.telecomarmenia.am/images/news/1/17768593249213/450x250c-center.jpeg" alt="" />
                             <div className="paddi">
                             <span style={{color:"#666e75", paddingBottom:"10px"}}>22 April</span>
@@ -68,12 +68,12 @@ function LrahosSlider() {
                          flexDirection:"column",
                          overflow:"hidden",
                          borderRadius:"15px",
-                         border:"0.5px solid rgb(177, 177, 177)",
-                         backgroundColor:"#e3e3e3"}}>
-                            <img src="https://www.telecomarmenia.am/images/news/1/17787646383268/450x250c-center.png" alt="" />
+                         border:"0.5px solid rgb(227, 227, 227)",
+                         backgroundColor:"#f2f2f2"}}>
+                            <img src="https://www.telecomarmenia.am/images/news/2/17764283852327/450x250c-center.png" alt="" />
                             <div className="paddi">
-                            <span style={{color:"#666e75", paddingBottom:"10px"}}>14 may</span>
-                            <span style={{fontSize:"25px",fontWeight:"900",color:"#2c3843"}}>Տելեգրաֆից մինչև 5G. Կապի թանգարանը միանում է «Թանգարանների գիշերվան»</span>
+                            <span style={{color:"#666e75", paddingBottom:"10px"}}>17 April</span>
+                            <span style={{fontSize:"20px",fontWeight:"900",color:"#2c3843"}}>Սովորի՛ր, խաղա՛ և հաղթի՛ր. Team-ն ու Koreez-ը առաջարկում են կրթական նոր հնարավորություն</span>
 
                             </div>
             </div>
@@ -84,12 +84,14 @@ function LrahosSlider() {
                          flexDirection:"column",
                          overflow:"hidden",
                          borderRadius:"15px",
-                         border:"0.5px solid rgb(177, 177, 177)",
-                         backgroundColor:"#e3e3e3"}}>
-                            <img src="https://www.telecomarmenia.am/images/news/1/17786537465042/450x250c-center.png" alt="" />
+                         border:"0.5px solid rgb(227, 227, 227)",
+                         backgroundColor:"#f2f2f2"}}>
+                            <img src="https://www.telecomarmenia.am/images/news/1/17757164588017/450x250c-center.jpeg" alt="" />
                             <div className="paddi">
-                            <span style={{color:"#666e75", paddingBottom:"10px"}}>13 may</span>
-                            <span style={{fontSize:"20px",fontWeight:"900",color:"#2c3843"}}>Team-ի աջակցությամբ տավուշցի հարյուրավոր աշակերտներ մասնակցել են «Սիմֆոնիկ ԴասA» կրթական ծրագրին</span>
+                            <span style={{color:"#666e75", paddingBottom:"10px"}}>09 April</span>
+                            <span style={{fontSize:"20px",fontWeight:"900",color:"#2c3843"}}>
+                                    Team-ի 2G-ն ամբողջ Հայաստանում փոխարինվել է նոր տեխնոլոգիաներով
+                                </span>
 
                             </div>
             </div>
@@ -100,16 +102,72 @@ function LrahosSlider() {
                          flexDirection:"column",
                          overflow:"hidden",
                          borderRadius:"15px",
-                         border:"0.5px solid rgb(177, 177, 177)",
-                         backgroundColor:"#e3e3e3"}}>
-                            <img src="https://www.telecomarmenia.am/images/news/1/17768593249213/450x250c-center.jpeg" alt="" />
+                         border:"0.5px solid rgb(227, 227, 227)",
+                         backgroundColor:"#f2f2f2"}}>
+                            <img src="https://www.telecomarmenia.am/images/news/1/17756529131443/450x250c-center.png" alt="" />
                             <div className="paddi">
-                            <span style={{color:"#666e75", paddingBottom:"10px"}}>22 April</span>
-                            <span style={{fontSize:"20px",fontWeight:"900",color:"#2c3843"}}>Բնության հանդեպ հոգատար վերաբերմունքը սկսել ենք մեզնից. Team-ն արժանացել է ISO 14001:2015 հավաստագրի</span>
+                            <span style={{color:"#666e75", paddingBottom:"10px"}}>08 April</span>
+                            <span style={{fontSize:"20px",fontWeight:"900",color:"#2c3843"}}>MOBILE ID Ծառայություն</span>
 
                             </div>
             </div>
         </SwiperSlide>
+        <SwiperSlide style={{display:"flex",gap:"30px",justifyContent:"center"}}>
+            <div style={{width:"400px",
+                         borderRadius:"15px",
+                         display:"flex",
+                         flexDirection:"column",
+                         overflow:"hidden",
+                         borderRadius:"15px",
+                         border:"0.5px solid rgb(227, 227, 227)",
+                         backgroundColor:"#f2f2f2"}}>
+                            <img src="https://www.telecomarmenia.am/images/news/1/17740030374784/450x250c-center.png" alt="" />
+                            <div className="paddi">
+                            <span style={{color:"#666e75", paddingBottom:"10px"}}>17 April</span>
+                            <span style={{fontSize:"20px",fontWeight:"900",color:"#2c3843"}}>700 երիտասարդ մեկ հարթակում. Team-ը կրթությանն ու մարզերի զարգացմանն ուղղված «Հզոր համայնք»-ի կողքին է</span>
+
+                            </div>
+            </div>
+            <div style={{width:"400px",
+                         height:"400px",
+                         borderRadius:"15px",
+                         display:"flex",
+                         flexDirection:"column",
+                         overflow:"hidden",
+                         borderRadius:"15px",
+                         border:"0.5px solid rgb(227, 227, 227)",
+                         backgroundColor:"#f2f2f2"}}>
+                            <img src="https://www.telecomarmenia.am/images/news/1/17727147056441/450x250c-center.png" alt="" />
+                            <div className="paddi">
+                            <span style={{color:"#666e75", paddingBottom:"10px"}}>09 April</span>
+                            <span style={{fontSize:"20px",fontWeight:"900",color:"#2c3843"}}>
+                                    Ձեռք բեր սմարթֆոն, ստացիր նաև սմարթ ժամացույց. Team-ի գարնանային ակցիան
+                                </span>
+
+                            </div>
+            </div>
+            <div style={{width:"400px",
+                         height:"400px",
+                         borderRadius:"15px",
+                         display:"flex",
+                         flexDirection:"column",
+                         overflow:"hidden",
+                         borderRadius:"15px",
+                         border:"0.5px solid rgb(227, 227, 227)",
+                         backgroundColor:"#f2f2f2"}}>
+                            <img src="	https://www.telecomarmenia.am/images/news/1/17726087357015/450x250c-center.jpeg" alt="" />
+                            <div className="paddi">
+                            <span style={{color:"#666e75", paddingBottom:"10px"}}>08 April</span>
+                            <span style={{fontSize:"20px",fontWeight:"900",color:"#2c3843"}}>Անվճար ինտերնետ ռոումինգում Team-ի՝ Մերձավոր Արևելքում գտնվող բաժանորդներին</span>
+
+                            </div>
+            </div>
+        </SwiperSlide>
+        <div style={{width:"50%",marginLeft:"50px",marginTop:"50px"}}></div>
+        <div style={{display:"flex", alignItems:"end", }}>
+            <hr style={{width:"82%", height:"0px", marginLeft:"40px"}} />
+            <a style={{paddingLeft:"50px", color:"#666e75", cursor:"pointer"}} href="">Տեսնել Ավելին</a>
+        </div>
       </Swiper>
     </div>
 
