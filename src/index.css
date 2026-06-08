@@ -141,15 +141,16 @@ header {
     display: flex;
     max-width: 1260px;
     margin: auto;
-    justify-content: space-between;
+   
 }
 
 #mas1 {
     cursor: pointer;
+    padding-right: 90px;
 }
 
 .navig {
-    gap: 20px;
+    gap: 30px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(60, 60, 60);
 
@@ -320,4 +321,17 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.paddi{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+#lrahosswiper{
+    display: flex;
+    justify-content: center;
+}
+.swiper-pagination{
+    position: relative;
+    bottom: -30px;
 }

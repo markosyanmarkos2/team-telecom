@@ -1,6 +1,122 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+function LrahosSlider() {
+    return(
+    <div className="lrahosSwiper" style={{width:"100%",padding:"80px",boxSizing:"border-box"}}>
+        <Swiper
+        modules={[Navigation, Pagination, Autoplay]}
+        spaceBetween={30}
+        slidesPerView={1}
+        navigation={true}
+        pagination={{ clickable: true}}
+        autoplay={{ delay: 15000000 }}
+        loop={true}
+      >
+        <SwiperSlide style={{display:"flex",gap:"30px",justifyContent:"center"}}>
+            <div style={{width:"400px",
+                         borderRadius:"15px",
+                         display:"flex",
+                         flexDirection:"column",
+                         overflow:"hidden",
+                         borderRadius:"15px",
+                         border:"0.5px solid rgb(177, 177, 177)",
+                         backgroundColor:"#e3e3e3"}}>
+                            <img src="https://www.telecomarmenia.am/images/news/1/17787646383268/450x250c-center.png" alt="" />
+                            <div className="paddi">
+                            <span style={{color:"#666e75", paddingBottom:"10px"}}>14 may</span>
+                            <span style={{fontSize:"25px",fontWeight:"900",color:"#2c3843"}}>Տելեգրաֆից մինչև 5G. Կապի թանգարանը միանում է «Թանգարանների գիշերվան»</span>
 
+                            </div>
+            </div>
+            <div style={{width:"400px",
+                         height:"400px",
+                         borderRadius:"15px",
+                         display:"flex",
+                         flexDirection:"column",
+                         overflow:"hidden",
+                         borderRadius:"15px",
+                         border:"0.5px solid rgb(177, 177, 177)",
+                         backgroundColor:"#e3e3e3"}}>
+                            <img src="https://www.telecomarmenia.am/images/news/1/17786537465042/450x250c-center.png" alt="" />
+                            <div className="paddi">
+                            <span style={{color:"#666e75", paddingBottom:"10px"}}>13 may</span>
+                            <span style={{fontSize:"20px",fontWeight:"900",color:"#2c3843"}}>Team-ի աջակցությամբ տավուշցի հարյուրավոր աշակերտներ մասնակցել են «Սիմֆոնիկ ԴասA» կրթական ծրագրին</span>
+
+                            </div>
+            </div>
+            <div style={{width:"400px",
+                         height:"400px",
+                         borderRadius:"15px",
+                         display:"flex",
+                         flexDirection:"column",
+                         overflow:"hidden",
+                         borderRadius:"15px",
+                         border:"0.5px solid rgb(177, 177, 177)",
+                         backgroundColor:"#e3e3e3"}}>
+                            <img src="https://www.telecomarmenia.am/images/news/1/17768593249213/450x250c-center.jpeg" alt="" />
+                            <div className="paddi">
+                            <span style={{color:"#666e75", paddingBottom:"10px"}}>22 April</span>
+                            <span style={{fontSize:"20px",fontWeight:"900",color:"#2c3843"}}>Բնության հանդեպ հոգատար վերաբերմունքը սկսել ենք մեզնից. Team-ն արժանացել է ISO 14001:2015 հավաստագրի</span>
+
+                            </div>
+            </div>
+        </SwiperSlide>
+        <SwiperSlide style={{display:"flex",gap:"30px",justifyContent:"center"}}>
+            <div style={{width:"400px",
+                         borderRadius:"15px",
+                         display:"flex",
+                         flexDirection:"column",
+                         overflow:"hidden",
+                         borderRadius:"15px",
+                         border:"0.5px solid rgb(177, 177, 177)",
+                         backgroundColor:"#e3e3e3"}}>
+                            <img src="https://www.telecomarmenia.am/images/news/1/17787646383268/450x250c-center.png" alt="" />
+                            <div className="paddi">
+                            <span style={{color:"#666e75", paddingBottom:"10px"}}>14 may</span>
+                            <span style={{fontSize:"25px",fontWeight:"900",color:"#2c3843"}}>Տելեգրաֆից մինչև 5G. Կապի թանգարանը միանում է «Թանգարանների գիշերվան»</span>
+
+                            </div>
+            </div>
+            <div style={{width:"400px",
+                         height:"400px",
+                         borderRadius:"15px",
+                         display:"flex",
+                         flexDirection:"column",
+                         overflow:"hidden",
+                         borderRadius:"15px",
+                         border:"0.5px solid rgb(177, 177, 177)",
+                         backgroundColor:"#e3e3e3"}}>
+                            <img src="https://www.telecomarmenia.am/images/news/1/17786537465042/450x250c-center.png" alt="" />
+                            <div className="paddi">
+                            <span style={{color:"#666e75", paddingBottom:"10px"}}>13 may</span>
+                            <span style={{fontSize:"20px",fontWeight:"900",color:"#2c3843"}}>Team-ի աջակցությամբ տավուշցի հարյուրավոր աշակերտներ մասնակցել են «Սիմֆոնիկ ԴասA» կրթական ծրագրին</span>
+
+                            </div>
+            </div>
+            <div style={{width:"400px",
+                         height:"400px",
+                         borderRadius:"15px",
+                         display:"flex",
+                         flexDirection:"column",
+                         overflow:"hidden",
+                         borderRadius:"15px",
+                         border:"0.5px solid rgb(177, 177, 177)",
+                         backgroundColor:"#e3e3e3"}}>
+                            <img src="https://www.telecomarmenia.am/images/news/1/17768593249213/450x250c-center.jpeg" alt="" />
+                            <div className="paddi">
+                            <span style={{color:"#666e75", paddingBottom:"10px"}}>22 April</span>
+                            <span style={{fontSize:"20px",fontWeight:"900",color:"#2c3843"}}>Բնության հանդեպ հոգատար վերաբերմունքը սկսել ենք մեզնից. Team-ն արժանացել է ISO 14001:2015 հավաստագրի</span>
+
+                            </div>
+            </div>
+        </SwiperSlide>
+      </Swiper>
+    </div>
+
+    )
+}
+
+export { LrahosSlider };
 function App() {
   return (
     // Քո հիմնական wrapper-ը, որտեղ դրել ես swp class-ը
@@ -226,3 +342,4 @@ function App() {
 }
 
 export default App;
+
