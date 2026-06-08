@@ -165,7 +165,7 @@ function LrahosSlider() {
         </SwiperSlide>
         <div style={{width:"50%",marginLeft:"50px",marginTop:"50px"}}></div>
         <div style={{display:"flex", alignItems:"end", }}>
-            </div>
+    https://www.telecomarmenia.am/files/icons/1/16511388037707/45x45.png        </div>
       </Swiper>
     </div>
 
