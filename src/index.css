@@ -382,6 +382,25 @@ header {
 }
 .social{
     display: flex;
-    gap: 10px;
+    gap: 15px;
     align-items: center;
+    margin-bottom: 30px;
+}
+.tel{
+    background-image: url(https://www.telecomarmenia.am/img/sprite2x.png?v=49);
+    height: 24px;
+    background-size: 300px auto;
+    width: 18px;
+    font-size: .875rem;
+    background-position: -55px -238px;
+
+}
+.telblock{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, .5);
+    padding-left: 6px;
+    margin-bottom: 20px;
 }
