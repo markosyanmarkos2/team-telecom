@@ -376,3 +376,12 @@ header {
     background-position: bottom left;
     background-size: contain;
 }
+.footerblock{
+    background-color: #01415f;
+    padding: 40px 0;
+}
+.social{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
