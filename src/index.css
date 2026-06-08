@@ -422,3 +422,11 @@ header {
     padding: 10px;
     gap: 40px;
 }
+.footerlist{
+    display: flex;
+}
+.listerku{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
